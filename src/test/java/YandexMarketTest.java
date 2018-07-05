@@ -9,14 +9,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
 import pages.yandex.YandexMainPage;
 
-
-
-import java.util.concurrent.TimeUnit;
-
 public class YandexMarketTest {
 
-    private WebDriver driver;
-    private YandexMainPage yandexMainPage = new YandexMainPage(driver);
+    public WebDriver driver;
 
     @Before
     public void loadPage() {
@@ -27,7 +22,8 @@ public class YandexMarketTest {
 
 
     @Test
-    public void checkPrices() throws InterruptedException {
+    public void checkPrices(){
+        YandexMainPage yandexMainPage = new YandexMainPage(driver);
         yandexMainPage.clickMarketLink();
 
         // следующие шаги

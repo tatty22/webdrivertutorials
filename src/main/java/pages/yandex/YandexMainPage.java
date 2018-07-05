@@ -10,7 +10,7 @@ import ru.yandex.qatools.htmlelements.loader.HtmlElementLoader;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
 
 public class YandexMainPage {
-    private WebDriver driver;
+
     @FindBy(xpath = "//a[text()[contains(.,'Видео')]]")
     private Link videoLink;
     @FindBy(xpath = "//a[text()[contains(.,'Новости')]]")

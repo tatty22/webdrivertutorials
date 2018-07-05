@@ -9,7 +9,6 @@ import ru.yandex.qatools.htmlelements.loader.HtmlElementLoader;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
 
 public class YandexMarketPage extends AbstractYandexPage {
-    private WebDriver driver;
 
     public YandexMarketPage(WebDriver driver) {
         super(driver);

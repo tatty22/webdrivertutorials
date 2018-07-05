@@ -40,3 +40,13 @@
 [0705/142443.643:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir7732_11118\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
 [0705/142443.643:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir7732_11118\Crashpad\reports\fa660d07-6e74-4cac-a164-dfca45b80d99.dmp: Системе не удается найти указанный путь. (0x3)
 [0705/142443.643:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0705/151821.759:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/152657.686:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/153048.518:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/153506.809:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/153629.812:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/154115.429:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/154249.340:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/154831.164:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/154944.810:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0705/160353.982:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
