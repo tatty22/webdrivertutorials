@@ -16,7 +16,9 @@ public class YandexMarketTest {
     @Before
     public void loadPage() {
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\chromedriver.exe");
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("useAutomationExtension", false);
+        driver = new ChromeDriver(options);
         driver.get("http://www.yandex.ru");
     }
 

@@ -9,7 +9,7 @@ import ru.yandex.qatools.htmlelements.element.Link;
 import ru.yandex.qatools.htmlelements.loader.HtmlElementLoader;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
 
-public class YandexMainPage {
+public class YandexMainPage extends AbstractYandexPage {
 
     @FindBy(xpath = "//a[text()[contains(.,'Видео')]]")
     private Link videoLink;
@@ -19,7 +19,7 @@ public class YandexMainPage {
     private Link marketLink;
 
     public YandexMainPage(WebDriver driver) {
-        super();
+        super(driver);
     }
 
     public void clickMarketLink() {

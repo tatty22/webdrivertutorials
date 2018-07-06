@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5034c372-bbb0-4118-8ec2-6ac164881582" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMainPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMainPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" afterPath="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/yandex/YandexMainPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/yandex/YandexMainPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/yandex/YandexMarketPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/yandex/YandexMarketPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/YandexMarketTest.class" afterPath="$PROJECT_DIR$/target/test-classes/YandexMarketTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,11 +58,12 @@
       <file leaf-file-name="YandexMarketTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/YandexMarketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="334">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,14 +88,14 @@
       <file leaf-file-name="YandexMainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/YandexMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,10 +126,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/html_elements/SearchArrow.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/yandex/AbstractYandexPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" />
       </list>
     </option>
   </component>
@@ -535,44 +532,44 @@
       <updated>1529336312145</updated>
       <workItem from="1529336324334" duration="13678000" />
       <workItem from="1530112016853" duration="1205000" />
-      <workItem from="1530188707165" duration="40465000" />
+      <workItem from="1530188707165" duration="42337000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YandexMarketTest - 2018.07.05 at 15h 33m 49s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 15h 34m 12s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 15h 39m 31s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 15h 40m 45s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 15h 54m 54s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 15h 55m 27s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 15h 59m 24s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 16h 00m 41s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.05 at 16h 02m 07s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="YandexMarketTest - 2018.07.05 at 16h 03m 09s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.05 at 16h 13m 59s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.05 at 16h 14m 47s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.06 at 12h 05m 42s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.06 at 12h 10m 13s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.06 at 12h 11m 22s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.06 at 12h 13m 21s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.06 at 12h 14m 28s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.06 at 12h 15m 00s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.06 at 12h 15m 17s.xml">
       <configuration name="YandexMarketTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55348000" />
+    <option name="totallyTimeSpent" value="57220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -650,7 +647,7 @@
         <state relative-caret-position="204">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -675,6 +672,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/AbstractYandexPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -689,39 +698,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/YandexMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="136">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/YandexMarketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="334">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
           </folding>
         </state>
       </provider>
