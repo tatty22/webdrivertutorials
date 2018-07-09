@@ -17,4 +17,5 @@ public abstract class AbstractYandexPage extends AbstractPage {
     public void searchFor(String request) {
         searchArrow.search(request);
     }
+
 }

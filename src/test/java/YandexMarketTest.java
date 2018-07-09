@@ -1,13 +1,16 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.BeforeClass;
 import pages.yandex.YandexMainPage;
+import pages.yandex.YandexMarketPage;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class YandexMarketTest {
 
@@ -24,11 +27,18 @@ public class YandexMarketTest {
 
 
     @Test
-    public void checkPrices(){
+    public void checkPrices() throws InterruptedException {
         YandexMainPage yandexMainPage = new YandexMainPage(driver);
         yandexMainPage.clickMarketLink();
 
-        // следующие шаги
+        YandexMarketPage yandexMarketPage = new YandexMarketPage(driver);
+        yandexMarketPage.searchFor("Печь СВЧ");
+
+        List<WebElement> searchResults = yandexMarketPage.searchByPrice("2850","2900");
+        for (WebElement price : searchResults) {
+            int value = Integer.parseInt(price.getText().replaceAll("\\s.$",""));
+            Assert.assertTrue((value >= 2850 ) && (value <= 2900));
+        }
     }
 
     @After
