@@ -271,3 +271,40 @@
 [0709/184749.626:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
 [0709/190030.121:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
 [0709/190155.418:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0709/190940.072:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0709/191211.871:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0709/194622.035:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir19624_28880\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/194622.041:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir19624_28880\Crashpad\reports\9749a654-d168-40cb-8cd8-10ef447ffbb2.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/194622.041:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/201323.717:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir15980_21631\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/201323.727:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir15980_21631\Crashpad\reports\9be2fdab-a326-4571-96c4-b4fc2f1b87ce.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/201323.727:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/201556.423:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir14108_1513\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/201556.432:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir14108_1513\Crashpad\reports\095f7115-a5f6-44cb-aabb-6ca863fb397c.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/201556.432:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/201732.324:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir21360_27252\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/201732.330:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir21360_27252\Crashpad\reports\6dd276fa-b17c-4079-8f0c-d0d0c8a224c1.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/201732.330:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/201859.060:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir21144_21942\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/201859.061:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir21144_21942\Crashpad\reports\356a26f3-6a1a-425a-a268-6e9b6f9b1883.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/201859.061:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/203140.516:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir20884_1925\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/203140.517:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir20884_1925\Crashpad\reports\a88c662e-1ed5-4f32-bdc2-6db93720b528.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/203140.517:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/203308.671:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir16304_32220\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/203308.671:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir16304_32220\Crashpad\reports\48bd3763-3699-437f-876a-6a0cb0544bbc.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/203308.672:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/204033.980:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir21220_1487\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/204033.981:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir21220_1487\Crashpad\reports\bd97ced3-e633-4369-a508-bc1b29ebfeee.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/204033.981:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0709/204325.072:ERROR:file_io_win.cc(161)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir15020_10449\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0709/204325.073:ERROR:file_io_win.cc(170)] CreateFile C:\Users\TTATAR~1\AppData\Local\Temp\scoped_dir15020_10449\Crashpad\reports\e1e41326-0fcc-4237-af44-adf82011808e.dmp: Системе не удается найти указанный путь. (0x3)
+[0709/204325.073:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0710/112054.248:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/114117.491:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/114518.235:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/115127.282:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/121436.692:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/122017.101:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/122216.340:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/122225.487:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

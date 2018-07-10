@@ -35,8 +35,9 @@ public class YandexMarketTest {
         yandexMarketPage.searchFor("Печь СВЧ");
 
         List<WebElement> searchResults = yandexMarketPage.searchByPrice("2850","2900");
+        driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
         for (WebElement price : searchResults) {
-            int value = Integer.parseInt(price.getText().replaceAll("\\s.$",""));
+            int value = Integer.parseInt(price.getText().replaceAll("\\s.$","").replaceAll("\\s",""));
             Assert.assertTrue((value >= 2850 ) && (value <= 2900));
         }
     }

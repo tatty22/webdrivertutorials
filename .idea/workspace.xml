@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5034c372-bbb0-4118-8ec2-6ac164881582" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/html_elements/SearchArrow.java" afterPath="$PROJECT_DIR$/src/main/java/html_elements/SearchArrow.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/yandex/AbstractYandexPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/yandex/AbstractYandexPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" afterPath="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/html_elements/SearchArrow.class" afterPath="$PROJECT_DIR$/target/classes/html_elements/SearchArrow.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/yandex/YandexMarketPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/yandex/YandexMarketPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/YandexMarketTest.class" afterPath="$PROJECT_DIR$/target/test-classes/YandexMarketTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="YandexMarketPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="YandexMarketPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,15 +28,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YandexMarketTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="YandexMarketTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/YandexMarketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="385">
+              <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/yandex/AbstractYandexPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/html_elements/SearchArrow.java" />
-        <option value="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/YandexMarketTest.java" />
       </list>
     </option>
   </component>
@@ -488,17 +481,11 @@
       <updated>1529336312145</updated>
       <workItem from="1529336324334" duration="13678000" />
       <workItem from="1530112016853" duration="1205000" />
-      <workItem from="1530188707165" duration="66485000" />
+      <workItem from="1530188707165" duration="69045000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YandexMarketTest - 2018.07.09 at 18h 53m 46s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YandexMarketTest - 2018.07.09 at 18h 58m 15s.xml">
-      <configuration name="YandexMarketTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="YandexMarketTest - 2018.07.09 at 19h 01m 05s.xml">
       <configuration name="YandexMarketTest" configurationId="JUnit" />
     </history-entry>
@@ -508,14 +495,17 @@
     <history-entry file="YandexMarketTest - 2018.07.09 at 19h 03m 51s.xml">
       <configuration name="YandexMarketTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YandexMarketTest_checkPrices - 2018.07.09 at 18h 55m 30s.xml">
-      <configuration name="YandexMarketTest.checkPrices" configurationId="JUnit" />
+    <history-entry file="YandexMarketTest - 2018.07.10 at 11h 36m 18s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YandexMarketTest_checkPrices - 2018.07.09 at 18h 56m 32s.xml">
-      <configuration name="YandexMarketTest.checkPrices" configurationId="JUnit" />
+    <history-entry file="YandexMarketTest - 2018.07.10 at 11h 37m 44s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YandexMarketTest_checkPrices - 2018.07.09 at 18h 57m 33s.xml">
-      <configuration name="YandexMarketTest.checkPrices" configurationId="JUnit" />
+    <history-entry file="YandexMarketTest - 2018.07.10 at 11h 51m 08s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YandexMarketTest - 2018.07.10 at 11h 52m 09s.xml">
+      <configuration name="YandexMarketTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="YandexMarketTest_checkPrices - 2018.07.09 at 19h 00m 40s.xml">
       <configuration name="YandexMarketTest.checkPrices" configurationId="JUnit" />
@@ -523,9 +513,12 @@
     <history-entry file="YandexMarketTest_checkPrices - 2018.07.09 at 19h 03m 12s.xml">
       <configuration name="YandexMarketTest.checkPrices" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="YandexMarketTest_checkPrices - 2018.07.10 at 11h 32m 17s.xml">
+      <configuration name="YandexMarketTest.checkPrices" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81368000" />
+    <option name="totallyTimeSpent" value="83928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,7 +554,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -752,24 +745,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/YandexMarketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="385">
+          <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YandexMarketTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/yandex/YandexMarketPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="374">
+          <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
           </folding>
         </state>
       </provider>
