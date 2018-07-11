@@ -33,7 +33,7 @@ public class YandexMarketPage extends AbstractYandexPage {
     public List<WebElement> searchByPrice(String valueFrom, String valueTo) throws InterruptedException {
         priceFrom.sendKeys(valueFrom);
         priceTo.sendKeys(valueTo);
-        driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
+        Thread.sleep(1000);
         List<WebElement> searchResults = driver.findElements(By.className("price"));
 
         return searchResults;
