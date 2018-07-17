@@ -23,6 +23,7 @@ public class YandexMarketTest {
         options.setExperimentalOption("useAutomationExtension", false);
         driver = new ChromeDriver(options);
         driver.get("http://www.yandex.ru");
+        
     }
 
 
