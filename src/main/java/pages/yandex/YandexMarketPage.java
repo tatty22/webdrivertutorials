@@ -6,10 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.*;
 import ru.yandex.qatools.htmlelements.annotations.Name;
 import ru.yandex.qatools.htmlelements.element.Link;
 import ru.yandex.qatools.htmlelements.element.TextInput;
@@ -40,8 +37,8 @@ public class YandexMarketPage extends AbstractYandexPage {
 
         priceFrom.sendKeys(valueFrom);
         priceTo.sendKeys(valueTo);
-        //Thread.sleep(5000);
-        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath(""))));
+
+        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//div[contains(@class,'spin2_js_inited')]"))));
 
         List<WebElement> searchResults = driver.findElements(By.xpath("//div[contains(@data-id, 'model')]//a//*[@class='price']"));
 
