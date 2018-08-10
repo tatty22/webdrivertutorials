@@ -40,7 +40,8 @@ public class YandexMarketPage extends AbstractYandexPage {
         priceTo.sendKeys(valueTo);
 
         //wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//*[contains(@class,'spin2_progress_yes')]"))));   // не работает:(
-        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//*[contains(@class,'preloadable__preloader_visibility_visible')]"))));  // не работает:(
+        //wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//*[contains(@class,'preloadable__preloader_visibility_visible')]"))));  // не работает:(
+        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//div[contains(@class,'spin2_js_inited')]"))));   // иногда работает
 
 
         List<WebElement> searchResults = driver.findElements(By.xpath("//div[contains(@data-id, 'model')]//a//*[@class='price']"));
