@@ -2,13 +2,18 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import pages.yandex.YandexMainPage;
 import pages.yandex.YandexMarketPage;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -17,11 +22,9 @@ public class YandexMarketTest {
     public WebDriver driver;
 
     @Before
-    public void loadPage() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("useAutomationExtension", false);
-        driver = new ChromeDriver(options);
+    public void loadPage() throws MalformedURLException {
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        driver = new RemoteWebDriver(new URL("http://192.168.56.2:4444/wd/hub"),capabilities);
         driver.get("http://www.yandex.ru");
         
     }

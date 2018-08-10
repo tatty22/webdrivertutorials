@@ -13,6 +13,7 @@ import ru.yandex.qatools.htmlelements.element.TextInput;
 import ru.yandex.qatools.htmlelements.loader.HtmlElementLoader;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
 
+import java.sql.DriverManager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -38,7 +39,9 @@ public class YandexMarketPage extends AbstractYandexPage {
         priceFrom.sendKeys(valueFrom);
         priceTo.sendKeys(valueTo);
 
-        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//div[contains(@class,'spin2_js_inited')]"))));
+        //wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//*[contains(@class,'spin2_progress_yes')]"))));   // не работает:(
+        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//*[contains(@class,'preloadable__preloader_visibility_visible')]"))));  // не работает:(
+
 
         List<WebElement> searchResults = driver.findElements(By.xpath("//div[contains(@data-id, 'model')]//a//*[@class='price']"));
 
