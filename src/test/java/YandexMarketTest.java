@@ -1,3 +1,5 @@
+import driver.DriverFactory;
+import driver.DriverManager;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -9,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeMethod;
 import pages.yandex.YandexMainPage;
 import pages.yandex.YandexMarketPage;
 
@@ -19,8 +22,8 @@ import java.util.concurrent.TimeUnit;
 
 public class YandexMarketTest {
 
-    public WebDriver driver;
-
+    //public WebDriver driver;
+    /*
     @Before
     public void loadPage() throws MalformedURLException {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
@@ -28,14 +31,20 @@ public class YandexMarketTest {
         driver.get("http://www.yandex.ru");
         
     }
+    */
+
+    @BeforeMethod
+    public void initWebDriverBeforeTest() {
+        DriverManager.setWebDriver(DriverFactory.createInstance());
+    }
 
 
     @Test
     public void checkPrices() throws InterruptedException {
-        YandexMainPage yandexMainPage = new YandexMainPage(driver);
+        YandexMainPage yandexMainPage = new YandexMainPage(DriverManager.getDriver());
         yandexMainPage.clickMarketLink();
 
-        YandexMarketPage yandexMarketPage = new YandexMarketPage(driver);
+        YandexMarketPage yandexMarketPage = new YandexMarketPage(DriverManager.getDriver());
         yandexMarketPage.searchFor("Печь СВЧ");
 
         List<WebElement> searchResults = yandexMarketPage.searchByPrice("2850","2900");
@@ -47,7 +56,7 @@ public class YandexMarketTest {
 
     @After
     public void closeDriver() {
-        driver.quit();
+        DriverManager.getDriver().quit();
     }
 
 }
