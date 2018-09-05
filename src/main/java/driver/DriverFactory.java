@@ -11,6 +11,10 @@ public class DriverFactory {
     public DriverFactory() {
     }
 
+    public static synchronized WebDriver createInstance() {
+        return initWebDriver();
+    }
+
     private static WebDriver initWebDriver() {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         RemoteWebDriver driver = null;
@@ -21,10 +25,6 @@ public class DriverFactory {
         }
         driver.get("http://www.yandex.ru");
         return driver;
-    }
-
-    public static synchronized WebDriver createInstance() {
-        return initWebDriver();
     }
 }
 

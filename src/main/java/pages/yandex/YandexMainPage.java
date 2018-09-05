@@ -18,9 +18,6 @@ public class YandexMainPage extends AbstractYandexPage {
     @FindBy(xpath = "//a[text()[contains(.,'Маркет')]]")
     private Link marketLink;
 
-    public YandexMainPage(WebDriver driver) {
-        super(driver);
-    }
 
     public void clickMarketLink() {
         marketLink.click();

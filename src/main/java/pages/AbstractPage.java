@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 
 public abstract class AbstractPage{
 
-    public AbstractPage(WebDriver driver) {
-        PageFactory.initElements(new HtmlElementDecorator(driver),this);
+    public AbstractPage() {
+        PageFactory.initElements(new HtmlElementDecorator(driver.DriverManager.getDriver()),this);
     }
 }

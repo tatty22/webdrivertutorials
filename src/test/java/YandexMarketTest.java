@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 
 public class YandexMarketTest {
 
-    //public WebDriver driver;
+
     /*
     @Before
     public void loadPage() throws MalformedURLException {
@@ -33,7 +33,7 @@ public class YandexMarketTest {
     }
     */
 
-    @BeforeMethod
+    @Before
     public void initWebDriverBeforeTest() {
         DriverManager.setWebDriver(DriverFactory.createInstance());
     }
@@ -41,10 +41,10 @@ public class YandexMarketTest {
 
     @Test
     public void checkPrices() throws InterruptedException {
-        YandexMainPage yandexMainPage = new YandexMainPage(DriverManager.getDriver());
+        YandexMainPage yandexMainPage = new YandexMainPage();
         yandexMainPage.clickMarketLink();
 
-        YandexMarketPage yandexMarketPage = new YandexMarketPage(DriverManager.getDriver());
+        YandexMarketPage yandexMarketPage = new YandexMarketPage();
         yandexMarketPage.searchFor("Печь СВЧ");
 
         List<WebElement> searchResults = yandexMarketPage.searchByPrice("2850","2900");
